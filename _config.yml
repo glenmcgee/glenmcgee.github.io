@@ -15,7 +15,7 @@ markdown: kramdown
 
 ### content configuration ###
 title:       "Glen McGee"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
+keywords:    ""
 description: ""
 source_link: "https://github.com/glenmcgee"
 favicon:     ""
