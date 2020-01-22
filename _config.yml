@@ -35,3 +35,5 @@ colors:
 
 kramdown:
   auto_ids:  false
+  # parse markdown inside block-level HTML tag
+  parse_block_html: true
