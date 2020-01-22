@@ -200,6 +200,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .sectiondivider {
+  text-align: center;
   width:270px;
   height:270px;
   padding:15px;
@@ -210,6 +211,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 .sectiondivider img {
+  text-align: center;
   width:200px;
   height:240px;
   position: static;
@@ -217,11 +219,13 @@ nav ul li:hover, nav ul li.active {
 }
 
 .sectiondivider .fa-stack {
+  text-align: center;
   font-size: 130px;
   position: static;
   margin-top: -8px;
 }
-.sectiondivider .fa-circle { color: #fff; }
+.sectiondivider .fa-circle { color: #fff; 
+			     text-align: center;}
 
 .sectiondivider h5 {
   font-size:15px;
