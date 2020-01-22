@@ -64,8 +64,7 @@ hr {
   border-color: {{ site.colors.black }};
 }
 
-.container { word-wrap: break-word; 
-	     font-size: 20px;}
+.container { word-wrap: break-word;}
 .center { text-align: center; }
 .left, .container .left { text-align: left; }
 
@@ -75,7 +74,7 @@ hr {
   padding: 0 4%;
 }
 .container p, .container ol, .container ul {
-  font-size: 17px;
+  font-size: 20px;
   padding: 0 5%;
 }
 .container ol, .container ul { padding: 0 8%; }
