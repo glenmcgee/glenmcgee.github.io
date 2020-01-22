@@ -36,3 +36,4 @@ colors:
 kramdown:
   auto_ids:  false
   input: GFM
+  hard_wrap: false
