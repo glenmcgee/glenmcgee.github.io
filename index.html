@@ -48,6 +48,15 @@
       </div>
     {% endfor %}
 
+
+    <div id="footer" class="section text-white">
+      <div class="container">
+        {% capture foottext %} {% include footer.md %} {% endcapture %}
+        {{ foottext | markdownify }}
+      </div>
+    </div>
+  </div>
+
     <div class="container" markdown="1">
       <div class="row" markdown="1">
          <div class="col-2" markdown="1">
@@ -59,15 +68,7 @@
     	</div>
       </div><!-- row -->
      </div><!-- container -->
-
-    <div id="footer" class="section text-white">
-      <div class="container">
-        {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {{ foottext | markdownify }}
-      </div>
-    </div>
-  </div>
-
+	
 {% include analytics.html %}
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
