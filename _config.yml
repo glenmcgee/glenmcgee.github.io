@@ -35,4 +35,4 @@ colors:
 
 kramdown:
   auto_ids:  false
-
+  input: GFM
