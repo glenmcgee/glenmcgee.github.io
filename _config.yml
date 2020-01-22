@@ -37,3 +37,4 @@ kramdown:
   auto_ids:  false
   input: GFM
   hard_wrap: false
+  parse_block_html: true
